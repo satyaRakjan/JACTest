@@ -1,0 +1,1559 @@
+:root {
+  --slidesATHLETS: none;
+  --ConnectionATHLETS: inline;
+  --CollaborationATHLETS: inline;
+  --GrowthATHLETS: none;
+  --slidesPLAYSERS: none;
+  --ConnectionPLAYSERS: none;
+  --CollaborationPLAYSERS: none;
+  --GrowthPLAYSERS: none;
+  --dotContainTop: 0px;
+}
+
+/* The dots/bullets/indicators */
+.dotContainer {
+  position: absolute;
+  width: 54px;
+  height: 10px;
+  left: 133px;
+  top: 542px;
+}
+.dotContainer2 {
+  position: absolute;
+  width: 54px;
+  height: 10px;
+  left: 133px;
+  top: 1115px;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  left: 12px;
+  background: #d8d8d8;
+
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #5c3caf;
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    position: relative;
+    width: 320px;
+    height: 1133px;
+
+    background: #ffffff;
+  }
+
+  .containerATHLETS .Connection {
+    display: var(--ConnectionATHLETS);
+  }
+  .containerATHLETS .Collaboration {
+    display: var(--CollaborationATHLETS);
+  }
+  .containerATHLETS .Growth {
+    display: var(--GrowthATHLETS);
+  }
+
+  .containerPLAYERS .Connection {
+    display: var(--ConnectionPLAYSERS);
+  }
+  .containerPLAYERS .Collaboration {
+    display: var(--CollaborationPLAYSERS);
+  }
+  .containerPLAYERS .Growth {
+    display: var(--GrowthPLAYSERS);
+  }
+
+  .containerATHLETS .ATHLETS h1 {
+    /* ATHLETS */
+
+    position: absolute;
+    width: 210px;
+    height: 281px;
+    left: 19px;
+    top: 0px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    /* identical to box height */
+
+    color: #e7e7e7;
+  }
+
+  .footballer1 {
+    content: url(./svg/Group\ 6.svg);
+    position: absolute;
+    width: 200px;
+    height: 281px;
+    left: 52px;
+    top: 70px;
+    z-index: 1;
+    /* background: url(.png); */
+  }
+  .player1 {
+    /* player */
+    z-index: 1;
+    content: url(./svg/Group\ 7.svg);
+    position: absolute;
+    width: 302px;
+    height: 249px;
+    left: 3px;
+    top: 680px;
+    /* background: url(./img/player.png); */
+  }
+  .athleteSVG {
+    position: absolute;
+    width: 321px;
+    height: 930px;
+    left: 0px;
+    top: 0px;
+  }
+  .group7 {
+    position: absolute;
+    width: 302px;
+    height: 250px;
+    left: 3px;
+    top: 680px;
+  }
+  .path45 {
+    /* Path 45 */
+    display: none;
+    background: url(./svg/Path45.svg);
+    position: absolute;
+    width: 178.89px;
+    height: 197.23px;
+    left: 68.36px;
+    top: 82.91px;
+
+    /* content: url(./svg/Path45.svg);
+    position: absolute;
+    width: 209.29px;
+    height: 233.72px;
+    left: 28.91px;
+    top: 139.98px; */
+  }
+  .Rectangle34 {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    left: 81px;
+    top: 90px;
+
+    background: #5c37b7;
+    border: 1px solid #9173e6;
+    border-radius: 100px;
+    transform: rotate(90deg);
+  }
+  .path {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    left: 81px;
+    top: 90px;
+
+    background: #5c37b7;
+    border: 1px solid #9173e6;
+    border-radius: 100px;
+  }
+  .Rectangle34Copy {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    left: 52px;
+    top: 81px;
+
+    background: #5c37b7;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border: 1px solid #9173e6;
+    border-radius: 100px;
+    transform: rotate(90deg);
+  }
+  .pathCopy {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    left: 52px;
+    top: 81px;
+
+    background: #5c37b7;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border: 1px solid #9173e6;
+    border-radius: 100px;
+  }
+
+  .containerATHLETS .Connection h1,
+  .containerATHLETS .Collaboration h1,
+  .containerATHLETS .Growth h1 {
+    position: absolute;
+    width: 239px;
+    height: 33px;
+    left: 46px;
+    top: 368px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+
+  .containerATHLETS .Connection .label,
+  .containerATHLETS .Collaboration .label,
+  .containerATHLETS .Growth .label {
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    left: 19px;
+    top: 375px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+
+  .containerATHLETS .Connection .Rectangle4,
+  .containerATHLETS .Collaboration .Rectangle4,
+  .containerATHLETS .Growth .Rectangle4 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 20px;
+    top: 393px;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+
+  .containerATHLETS .Connection .Content,
+  .containerATHLETS .Collaboration .Content,
+  .containerATHLETS .Growth .Content {
+    position: absolute;
+    width: 302px;
+    height: 90px;
+    left: 19px;
+    top: 421px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.74px;
+    color: #000000;
+  }
+  .containerATHLETS .Connection .Rectangle7,
+  .containerATHLETS .Collaboration .Rectangle7,
+  .containerATHLETS .Growth .Rectangle7 {
+    position: absolute;
+    width: 320px;
+    height: 284px;
+    left: 0px;
+    top: 296px;
+    background: #f5f4f9;
+  }
+  .containerPLAYERS .Collaboration .Rectangle7,
+  .containerPLAYERS .Growth .Rectangle7 {
+    display: none;
+  }
+  .containerPLAYERS .Connection .Rectangle7Mobile,
+  .containerPLAYERS .Collaboration .Rectangle7Mobile,
+  .containerPLAYERS .Growth .Rectangle7Mobile {
+    position: absolute;
+    width: 320px;
+    height: 238px;
+    left: 0px;
+    top: 895px;
+
+    background: #f5f4f9;
+  }
+
+  .Rectangle7 rect {
+    fill: #f5f4f9;
+  }
+
+  .Rectangle4 rect {
+    fill: #603ebe;
+  }
+
+  /* .containerATHLETS .Growth .Rectangle4 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 20px;
+    top: 393px;
+
+    background: #ffffff;
+    border-radius: 2.5px;
+  } */
+  /* .containerATHLETS .Growth .Rectangle7 {
+    position: absolute;
+    width: 320px;
+    height: 284px;
+    left: 0px;
+    top: 296px;
+    background: #5e3db3;
+  } */
+  /* .containerATHLETS .Growth .Content {
+    position: absolute;
+    width: 302px;
+    height: 90px;
+    left: 19px;
+    top: 421px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.74px;
+
+    color: #ffffff;
+  } */
+  .containerPLAYERS .PLAYERS h1 {
+    /* PLAYERS */
+
+    position: absolute;
+    width: 209px;
+    height: 59px;
+    left: 17px;
+    top: 599px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    /* identical to box height */
+    color: #e7e7e7;
+  }
+  .containerPLAYERS .Connection h1,
+  .containerPLAYERS .Collaboration h1,
+  .containerPLAYERS .Growth h1 {
+    position: absolute;
+    width: 125px;
+    height: 33px;
+    left: 46px;
+    top: 967px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerPLAYERS .Connection .label,
+  .containerPLAYERS .Collaboration .label,
+  .containerPLAYERS .Growth .label {
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    left: 19px;
+    top: 974px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+
+  .containerPLAYERS .Connection .Rectangle4,
+  .containerPLAYERS .Collaboration .Rectangle4 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 20px;
+    top: 992px;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+  .containerPLAYERS .Growth .Rectangle4 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 20px;
+    top: 992px;
+
+    background: #ffffff;
+    border-radius: 2.5px;
+  }
+  .containerPLAYERS .Connection .Content,
+  .containerPLAYERS .Collaboration .Content,
+  .containerPLAYERS .Growth .Content {
+    position: absolute;
+    width: 283px;
+    height: 36px;
+    left: 19px;
+    top: 1020px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.74px;
+
+    color: #000000;
+  }
+
+  .containerPLAYERS .Collaboration .Rectangle7,
+  .containerPLAYERS .Growth .Rectangle7 {
+    position: absolute;
+    width: 320px;
+    height: 238px;
+    left: 0px;
+    top: 895px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  /* For tablets: */
+
+  body {
+    position: relative;
+    width: 1920px;
+    height: 1867px;
+    background: #ffffff;
+  }
+  .containerATHLETS .Connection .Rectangle7,
+  .containerPLAYERS .Connection .Rectangle7Mobile,
+  .containerPLAYERS .Collaboration .Rectangle7Mobile,
+  .containerPLAYERS .Growth .Rectangle7Mobile,
+  .dot {
+    display: none;
+  }
+
+  .footballer1 {
+    position: absolute;
+    z-index: 1;
+    width: 498px;
+    height: 699px;
+    left: -161px;
+    top: 121px;
+  }
+  .path45 {
+    content: url(./svg/Path45.svg);
+    position: absolute;
+    width: 209.29px;
+    height: 233.72px;
+    left: 28.91px;
+    top: 139.98px;
+  }
+  .Rectangle34 {
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    left: 58px;
+    top: 118px;
+
+    background: #5c37b7;
+    border: 1px solid #9173e6;
+    border-radius: 100px;
+    transform: rotate(90deg);
+  }
+  .path {
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    left: 58px;
+    top: 118px;
+
+    background: #5c37b7;
+    border: 1px solid #9173e6;
+    border-radius: 100px;
+  }
+  .Rectangle34Copy {
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    left: 36px;
+    top: 109px;
+
+    background: #5c37b7;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border: 1px solid #9173e6;
+    border-radius: 100px;
+    transform: rotate(90deg);
+  }
+  .pathCopy {
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    left: 36px;
+    top: 109px;
+
+    background: #5c37b7;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border: 1px solid #9173e6;
+    border-radius: 100px;
+  }
+
+  .containerATHLETS .ATHLETS h1 {
+    position: absolute;
+    width: 378px;
+    height: 105px;
+    left: 291px;
+    top: 81px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 105px;
+
+    color: #e7e7e7;
+  }
+  .containerATHLETS .Connection h1 {
+    position: absolute;
+    width: 239px;
+    height: 42px;
+    left: 323px;
+    top: 228px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerATHLETS .Connection .label {
+    /* 01 */
+
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 291px;
+    top: 233px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerATHLETS .Connection .Rectangle4 {
+    /* Rectangle 4 */
+
+    position: absolute;
+    width: 19px;
+    height: 5px;
+    left: 292px;
+    top: 258px;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+  .containerATHLETS .Connection .Content {
+    /* Connect with coaches */
+
+    position: absolute;
+    width: 457px;
+    height: 56px;
+    left: 291px;
+    top: 291px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    color: #000000;
+  }
+  .containerATHLETS .Collaboration h1 {
+    /* Collaboration */
+
+    position: absolute;
+    width: 302px;
+    height: 42px;
+    left: 323px;
+    top: 407px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerATHLETS .Collaboration .Rectangle7 {
+    position: absolute;
+    width: 768px;
+    height: 235px;
+    left: 0px;
+    top: 377px;
+
+    background: #f5f4f9;
+  }
+  .containerATHLETS .Collaboration .label {
+    /* 02 */
+
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 291px;
+    top: 412px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerATHLETS .Collaboration .Rectangle4 {
+    /* Rectangle 4 */
+
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    left: 292px;
+    top: 437px;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+  .containerATHLETS .Collaboration .Content {
+    position: absolute;
+    width: 446.2px;
+    height: 112px;
+    left: 291px;
+    top: 470px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.837px;
+
+    color: #000000;
+  }
+  .containerATHLETS .Growth h1 {
+    /* Growth */
+
+    position: absolute;
+    width: 159px;
+    height: 42px;
+    left: 323px;
+    top: 642px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerATHLETS .Growth .label {
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 291px;
+    top: 648px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerATHLETS .Growth .Rectangle4 {
+    /* Rectangle 4 */
+
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    left: 292px;
+    top: 673px;
+
+    background: #ffffff;
+    border-radius: 2.5px;
+  }
+  .containerATHLETS .Growth .Rectangle7 {
+    /* Rectangle 7 Copy */
+
+    position: absolute;
+    width: 768px;
+    height: 207px;
+    left: 0px;
+    top: 612px;
+
+    background: #5e3db3;
+  }
+  .containerATHLETS .Growth .Content {
+    position: absolute;
+    width: 446.2px;
+    height: 84px;
+    left: 291px;
+    top: 705px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.837px;
+
+    color: #ffffff;
+  }
+  .player1 {
+    position: absolute;
+    z-index: 1;
+    width: 691px;
+    height: 568px;
+    left: 331px;
+    top: 852px;
+  }
+  .containerPLAYERS .PLAYERS h1 {
+    /* PLAYERS */
+
+    position: absolute;
+    width: 375px;
+    height: 105px;
+    left: 31px;
+    top: 871px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 105px;
+
+    color: #e7e7e7;
+  }
+  .containerPLAYERS .Connection h1 {
+    /* Connection */
+
+    position: absolute;
+    width: 239px;
+    height: 42px;
+    left: 65px;
+    top: 1010px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerPLAYERS .Connection .label {
+    /* 01 */
+
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 33px;
+    top: 1015px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerPLAYERS .Connection .Rectangle4 {
+    /* Rectangle 4 */
+
+    position: absolute;
+    width: 19px;
+    height: 5px;
+    left: 34px;
+    top: 1040px;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+  .containerPLAYERS .Connection .Content {
+    /* Connect with talente */
+
+    position: absolute;
+    width: 432px;
+    height: 84px;
+    left: 33px;
+    top: 1073px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    color: #000000;
+  }
+  .containerPLAYERS .Collaboration h1 {
+    /* Collaboration */
+
+    position: absolute;
+    width: 302px;
+    height: 42px;
+    left: 65px;
+    top: 1218px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerPLAYERS .Collaboration .label {
+    /* 02 */
+
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 33px;
+    top: 1223px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerPLAYERS .Collaboration .Rectangle4 {
+    /* Rectangle 4 */
+
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    left: 34px;
+    top: 1248px;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+  .containerPLAYERS .Collaboration .Rectangle7 {
+    /* Rectangle 7 */
+
+    position: absolute;
+    width: 768px;
+    height: 235px;
+    left: 0px;
+    top: 1167px;
+
+    background: #f5f4f9;
+  }
+  .containerPLAYERS .Collaboration .Content {
+    /* Work with recruiter  */
+
+    position: absolute;
+    width: 432px;
+    height: 56px;
+    left: 33px;
+    top: 1281px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.93px;
+
+    color: #000000;
+  }
+  .containerPLAYERS .Growth h1 {
+    /* Growth */
+
+    position: absolute;
+    width: 159px;
+    height: 42px;
+    left: 65px;
+    top: 1446px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerPLAYERS .Growth .label {
+    /* 03 */
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 33px;
+    top: 1452px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 1.5px;
+    color: #8765dd;
+  }
+  .containerPLAYERS .Growth .Rectangle4 {
+    /* Rectangle 4 */
+
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    left: 34px;
+    top: 1477px;
+
+    background: #ffffff;
+    border-radius: 2.5px;
+  }
+  .containerPLAYERS .Growth .Rectangle7 {
+    /* Rectangle 7 Copy */
+
+    position: absolute;
+    width: 768px;
+    height: 207px;
+    left: 0px;
+    top: 1402px;
+
+    background: #090c35;
+  }
+
+  .containerPLAYERS .Growth .Content {
+    /* Save your time, recr */
+
+    position: absolute;
+    width: 455px;
+    height: 56px;
+    left: 33px;
+    top: 1509px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.93px;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+
+  body {
+    position: relative;
+    width: 1920px;
+    height: 1867px;
+    background: #ffffff;
+  }
+  .dot,
+  .path45,
+  .path,
+  .Rectangle34,
+  .Rectangle34Copy,
+  .pathCopy,
+  .containerATHLETS .Connection .Rectangle7,
+  .containerPLAYERS .Connection .Rectangle7Mobile,
+  .containerPLAYERS .Collaboration .Rectangle7Mobile,
+  .containerPLAYERS .Growth .Rectangle7Mobile {
+    display: none;
+  }
+
+  .footballer1 {
+    position: relative;
+    z-index: 2;
+    width: 678px;
+    height: 950px;
+    left: 175px;
+    top: 35px;
+  }
+  .containerATHLETS .ATHLETS h1 {
+    position: absolute;
+    height: 105px;
+    left: 52.5%;
+    right: 27.81%;
+    top: calc(50% - 105px / 2 - 857px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 105px;
+    color: #e7e7e7;
+  }
+
+  .containerATHLETS .Connection h1 {
+    position: absolute;
+    height: 42px;
+    left: 54.17%;
+    right: 33.39%;
+    top: calc(50% - 42px / 2 - 724.5px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+
+  .containerATHLETS .Connection .Content {
+    position: absolute;
+    width: 601px;
+    height: 28px;
+    left: 52.5%;
+    right: 16.2%;
+    top: calc(50% - 28px / 2 - 658.5px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+
+    color: #000000;
+  }
+  .containerATHLETS .Connection .label {
+    position: absolute;
+    left: 52.5%;
+    right: 46.35%;
+    top: 10.34%;
+    bottom: 88.54%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerATHLETS .Connection .Rectangle4 {
+    position: absolute;
+    left: 52.55%;
+    right: 46.46%;
+    top: 11.68%;
+    bottom: 88.06%;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+
+  .containerATHLETS .Collaboration h1 {
+    position: absolute;
+    height: 42px;
+    left: 54.17%;
+    right: 30.1%;
+    top: calc(50% - 42px / 2 - 514.5px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+
+  .containerATHLETS .Collaboration .Content {
+    position: absolute;
+    width: 717px;
+    left: 52.5%;
+    right: 10.16%;
+    top: 24.69%;
+    bottom: 70.81%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+    letter-spacing: 0.93px;
+
+    color: #000000;
+  }
+  .containerATHLETS .Collaboration .label {
+    position: absolute;
+    left: 52.5%;
+    right: 46.35%;
+    top: 21.59%;
+    bottom: 77.29%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerATHLETS .Collaboration .Rectangle4 {
+    position: absolute;
+    left: 52.55%;
+    right: 46.3%;
+    top: 22.92%;
+    bottom: 76.81%;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+
+  .containerATHLETS .Collaboration h1 {
+    position: absolute;
+    height: 42px;
+    left: 54.17%;
+    right: 30.1%;
+    top: calc(50% - 42px / 2 - 514.5px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+
+  .containerATHLETS .Collaboration .label {
+    position: absolute;
+    left: 52.5%;
+    right: 46.35%;
+    top: 21.59%;
+    bottom: 77.29%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerATHLETS .Collaboration .Rectangle4 {
+    position: absolute;
+    left: 52.55%;
+    right: 46.3%;
+    top: 22.92%;
+    bottom: 76.81%;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+  .containerATHLETS .Collaboration .Rectangle7 {
+    /* Rectangle 7 */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 18.48%;
+    bottom: 67.81%;
+
+    background: #f5f4f9;
+  }
+  .containerATHLETS .Growth h1 {
+    position: absolute;
+    height: 42px;
+    left: 54.17%;
+    right: 37.55%;
+    top: calc(50% - 42px / 2 - 231.5px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerATHLETS .Growth .Content {
+    /* Resources and tools  */
+
+    position: absolute;
+    width: 717px;
+    left: 52.5%;
+    right: 10.16%;
+    top: 39.85%;
+    bottom: 57.15%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+    letter-spacing: 0.93px;
+
+    color: #ffffff;
+  }
+  .containerATHLETS .Growth .label {
+    position: absolute;
+    left: 52.55%;
+    right: 46.3%;
+    top: 36.8%;
+    bottom: 62.08%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerATHLETS .Growth .Rectangle4 {
+    /* Rectangle 4 */
+
+    position: absolute;
+    left: 52.55%;
+    right: 46.3%;
+    top: 38.14%;
+    bottom: 61.6%;
+
+    background: #ffffff;
+    border-radius: 2.5px;
+  }
+  .containerATHLETS .Growth .Rectangle7 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 31.92%;
+    bottom: 51.9%;
+
+    background: #5e3db3;
+  }
+
+  .player1 {
+    position: absolute;
+    z-index: 2;
+    width: 991px;
+    height: 815px;
+    left: 804px;
+    top: 48.5%;
+  }
+
+  .containerPLAYERS .PLAYERS h1 {
+    /* PLAYERS */
+
+    position: absolute;
+    height: 105px;
+    left: 16.72%;
+    right: 63.75%;
+    top: calc(50% - 105px / 2 + 124px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 105px;
+
+    color: #e7e7e7;
+  }
+  .containerPLAYERS .Connection h1 {
+    /* CONNECTION */
+
+    position: absolute;
+    height: 42px;
+    left: 18.44%;
+    right: 69.11%;
+    top: calc(50% - 105px / 2 + 297px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerPLAYERS .Connection .Content {
+    position: absolute;
+    width: 571px;
+    left: 16.77%;
+    right: 53.49%;
+    top: calc(50% - 105px / 2 + 360px);
+    bottom: 58.32%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+    color: #000000;
+    /* Connect with talente */
+  }
+  .containerPLAYERS .Connection .label {
+    position: absolute;
+    height: 21px;
+    left: 16.77%;
+    right: 82.08%;
+    top: calc(50% - 105px / 2 + 302px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerPLAYERS .Connection .Rectangle4 {
+    /* Rectangle 4 */
+
+    position: absolute;
+    left: 16.82%;
+    right: 82.19%;
+    top: calc(50% - 105px / 2 + 327px);
+    bottom: 66.73%;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+  .containerPLAYERS .Collaboration h1 {
+    position: absolute;
+    height: 42px;
+    left: 18.44%;
+    right: 65.83%;
+    top: calc(50% - 42px / 2 + 537px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerPLAYERS .Collaboration .Rectangle7 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 42px / 2 + 485px);
+    bottom: 26.85%;
+
+    background: #f5f4f9;
+  }
+  .containerPLAYERS .Collaboration .label {
+    position: absolute;
+    height: 21px;
+    left: 16.77%;
+    right: 82.08%;
+    top: calc(50% - 21px / 2 + 532px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #000000;
+  }
+  .containerPLAYERS .Collaboration .Rectangle4 {
+    position: absolute;
+    left: 16.82%;
+    right: 82.03%;
+    top: calc(50% - 21px / 2 + 557px);
+    bottom: 42.69%;
+
+    background: #603ebe;
+    border-radius: 2.5px;
+  }
+  .containerPLAYERS .Collaboration .Content {
+    position: absolute;
+    width: 717px;
+    left: 16.77%;
+    right: 45.89%;
+    top: calc(50% - 21px / 2 + 600px);
+    bottom: 37.07%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 0.65px;
+
+    color: #000000;
+  }
+
+  .containerPLAYERS .Growth h1 {
+    /* CONNECTION */
+
+    position: absolute;
+    height: 42px;
+    left: 18.49%;
+    right: 73.23%;
+    top: calc(50% - 42px / 2 + 817px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+
+    color: #c2c2c2;
+  }
+  .containerPLAYERS .Growth .Rectangle7 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 42px / 2 + 730px);
+    bottom: 0%;
+
+    background: #090c35;
+  }
+  .containerPLAYERS .Growth .label {
+    position: absolute;
+    height: 21px;
+    left: 16.82%;
+    right: 82.03%;
+    top: calc(50% - 21px / 2 + 810px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 1.5px;
+
+    color: #8f6be8;
+  }
+  .containerPLAYERS .Growth .Rectangle4 {
+    position: absolute;
+    left: 16.88%;
+    right: 81.98%;
+    top: calc(50% - 21px / 2 + 835px);
+    bottom: 14.53%;
+
+    background: #ffffff;
+    border-radius: 2.5px;
+  }
+  .containerPLAYERS .Growth .Content {
+    position: absolute;
+    width: 717px;
+    left: 16.82%;
+    right: 45.83%;
+    top: calc(50% - 21px / 2 + 880px);
+    bottom: 9.52%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.65px;
+
+    color: #ffffff;
+  }
+}
